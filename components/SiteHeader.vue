@@ -3,7 +3,7 @@
     <div class="wrapper">
       <NuxtLink to="/" class="no-underline">
         <figure class="site-logo">
-          <h1 class="text-4xl">Site</h1>
+          <h1 class="text-4xl">Cool & Fun & Nice</h1>
         </figure>
       </NuxtLink>
 

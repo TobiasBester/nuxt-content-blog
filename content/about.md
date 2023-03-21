@@ -1,3 +1,6 @@
-# About Page
+# About Me
 
-So a little bit about me... [home page](/).
+Page is blank. This is not a mistake.
+<br />
+
+[home page](/).
