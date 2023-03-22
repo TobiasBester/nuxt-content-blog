@@ -17,5 +17,8 @@ export default defineNuxtConfig({
                 depth: 3,
             }
         }
+    },
+    build: {
+        transpile: ['@heroicons/vue']
     }
 })
