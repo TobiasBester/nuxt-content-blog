@@ -25,12 +25,15 @@
         </ContentRenderer>
       </article>
     </section>
+    <DisqusCommentCard :title="slug[0]" class="pb-4" />
     <PrevNext :prev="prev" :next="next" />
   </main>
 </template>
 
 <script setup>
-const { path } = useRoute()
+import DisqusCommentCard from '~/components/DisqusCommentCard.vue'
+
+const { path, params: { slug } } = useRoute()
 const { data } = await useAsyncData(`content-${path}`, async () => {
   const article = queryContent().where({ _path: path }).findOne()
 

@@ -21,5 +21,8 @@ export default defineNuxtConfig({
     build: {
         transpile: ['@heroicons/vue']
     },
-    plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
+    plugins: [
+        {src: '~/plugins/vercel.ts', mode: 'client'},
+        '~/plugins/disqus'
+    ],
 })
