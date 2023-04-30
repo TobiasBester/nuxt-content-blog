@@ -10,7 +10,7 @@
       <Tags />
       <ContentList
           path="/blog"
-          :query="{ only: ['title', 'description', 'tags', '_path', 'img'] }"
+          :query="{ only: ['title', 'description', 'tags', '_path', 'img'], sort: [{ date: -1 }] }"
       >
         <template v-slot="{ list }">
           <ul class="article-list">

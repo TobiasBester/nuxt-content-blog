@@ -3,7 +3,7 @@
     <header class="page-heading">
       <div class="wrapper">
         <h1 class="text-5xl font-extrabold">"Art"</h1>
-        <p class="font-medium text-lg">Some images</p>
+        <p class="font-medium text-lg">Some images. Click on an image to possibly see behind-the-scenes details.</p>
       </div>
     </header>
     <section class="page-section">
