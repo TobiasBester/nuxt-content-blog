@@ -129,6 +129,23 @@ const goToNextImg = () => {
     currentImgIdx.value = Math.min(currentImgIdx.value + 1, numImages.value - 1)
 }
 
+onMounted(() => {
+    document.addEventListener('keydown', (e: KeyboardEvent) => {
+        if (!expanded.value) {
+            return
+        }
+
+        if (e.key === 'ArrowLeft') {
+            goToPrevImg()
+            return
+        }
+        if (e.key === 'ArrowRight') {
+            goToNextImg()
+            return
+        }
+    })
+})
+
 </script>
 
 <style scoped>
